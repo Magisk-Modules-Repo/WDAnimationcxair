@@ -27,15 +27,15 @@ If you want to change your choice again flash the module twice from TWRP or Magi
 
 ## Changelog
 
-### v1.0
+### v1.0-(Jifar)
 - Initial Release.
   
-### v2.0
+### v2.0-(Fasil)
 - Added watchdogs version two of watchdogs animation.
 - Improved verbose during installation to make it fully understandable by the user.
 - Code cleanup. Thanks to [Skittles9823](https://t.me/Skittles9823) for giving his advise to improve it.
   
-### v3.0
+### v3.0-(Utopia)
 - Moved to Unity template 4.4.
 - All the animations re-adjusted to fit the phones screen resolution and size. So no more boring placement of the animations.
 - Updated device identification logic.
