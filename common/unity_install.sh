@@ -3,7 +3,6 @@ RELEASE=`getprop ro.build.version.release`
 BRAND=`getprop ro.product.brand`
 DEVICE=`getprop ro.product.name`
 BUILD=`getprop ro.build.display.id`
-SDK=`getprop ro.build.version.sdk`
 
 ui_print " "
 ui_print "  Performing device compatibility check..."
@@ -16,8 +15,8 @@ ui_print "  CODENAME        : "$DEVICE
 ui_print "  BUILD NUMBER    : "$BUILD
 ui_print "  CHIPSET         : MT6737M"
 ui_print "  CPU ABI         : Arm64-v8a"
-ui_print "  SDK             : "$SDK
 ui_print "  ANDROID VERSION : "$RELEASE
+ui_print "  SDK             : "$API
 ui_print " "
 
 if $BOOTMODE; then
