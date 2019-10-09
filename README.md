@@ -38,7 +38,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ### v2.0-(Fasil)
 - Added watchdogs version two of watchdogs animation.
 - Improved verbose during installation to make it fully understandable by the user.
-- Code cleanup. Thanks to [Skittles9823](https://t.me/Skittles9823) for giving his advise to clean unnecessary spaces an a lot more.
+- Code cleanup. Thanks to [Skittles9823](https://t.me/Skittles9823) for giving his advise to clean unnecessary spaces and a lot more.
   
 ### v3.0-(Utopia)
 - Moved to Unity template 4.4.
