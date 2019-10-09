@@ -1,10 +1,10 @@
-# WatchDogs Animation for TECNO Camon CX Air
+# BASA Animation Switcher for TECNO CX Air
 
 ## Description
 
 All the real and official three versions of WatchDogs animation for TECNO Camon CX Air.
 
-Changes the Bootanimation animation and shutdown animation to watchdogs with the one you want from all the three versions included in this module.
+Changes the bootanimation animation and shutanimation to watchdogs with the one you want from all the three versions included in this module.
 
 You can select between all the three version of watchdogs boot animation using your volume key during installation. As simple as that!
 
@@ -53,7 +53,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
 - ahrion & zackptg5 for [Unity template](https://github.com/Zackptg5/Unity)
 - Thanks to [Skittles9823](https://t.me/Skittles9823) , [VR25](https://t.me/vr25xda) & [John Fawkes](https://t.me/johnfawkes) for helping me on many concepts without bored with my noob questions.
-- Thanks to [Jaymin Suthar](https://t.me/JayminSuthar1910) for helping me on how to summit and git related issues in detail.
+- Thanks to [Jaymin Suthar](https://t.me/JayminSuthar1910) and [Filippo](https://t.me/MarcAnt01) for helping me on how to summit and git related issues in detail.
 - Also thanks for all of my Telegram friend who helped me on everything!
 - And also join the telegram channel [Boot Animation](https://t.me/lootanimations) to get more cool boot animations for free!
   
