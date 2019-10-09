@@ -18,7 +18,7 @@ If you want to change your choice again flash the module twice from TWRP or Magi
 
 ## Why you make the module device specific ?
 
-Because all the animations included in this module are adjusted to fit the screen size and resolution TECNO CX Air. So it doesn't fit with other devices resolution and screen size.
+Because all the animations included in this module are adjusted to fit the screen size and resolution of TECNO CX Air. So it doesn't fit with other devices resolution and screen size.
 
 ## How to Uninstall ?
 
