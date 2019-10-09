@@ -16,6 +16,10 @@ Generally No. As the name suggested it is only a swithcher for watchdogs boot an
 
 If you want to change your choice again flash the module twice from TWRP or Magisk Manager then module becomes uninstalled in the first flash and you can choice again with the second flash.
 
+## Why you make the module device specific ?
+
+Because the animations are adjusted to fix the screen size and resolution of the device. So it doesn't match other phones resolution and screen size.
+
 ## How to Uninstall ?
 
 If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager.
