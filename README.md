@@ -30,6 +30,11 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Telegram Support Group
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MStoreEthiopiaG)
 
+## Requirements
+-   [![TECNO CX Air](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://m.gsmarena.com/tecno_camon_cx_air-ampp-9445.php)
+-   [![Magisk](https://img.shields.io/badge/Magisk-18%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
+-   [![Android 7.0](https://img.shields.io/badge/Android-7.0-violet.svg)](https://www.android.com/versions/nougat-7-0/)
+
 ## Changelog
 
 ### v1.0-(Jifar)
@@ -47,11 +52,6 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Added ASCII Art shown during installation.
 - Works only on Stock Nougat ROM.
 - Added version three of watchdogs animation.
-
-## Requirements
--   [![TECNO CX Air](https://img.shields.io/badge/TECNO-CX%20Air-blue)](https://m.gsmarena.com/tecno_camon_cx_air-ampp-9445.php)
--   [![Magisk](https://img.shields.io/badge/Magisk-18%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
--   [![Android 7.0](https://img.shields.io/badge/Android-7-violet.svg)](https://www.android.com/versions/nougat-7-0/)
 
 ## Credits
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
