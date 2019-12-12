@@ -65,7 +65,7 @@ REPLACE="
 print_modname() {
   ui_print " "
   ui_print " *********************************************************** "
-  ui_print "       BASA ANIMATION SWITCHER FOR TECNO CAMON CX AIR    "
+  ui_print "       BOOT ANIMATION SWITCHER FOR TECNO CAMON CX AIR    "
   ui_print " "
   ui_print " DON'T FORGET TO GIVE All THE CREDIT TO THE OFFICIAL "
   ui_print " WATCHDOGS BOOTANIMATION CREATOR'S! "
