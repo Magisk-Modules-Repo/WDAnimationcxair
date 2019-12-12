@@ -1,10 +1,10 @@
-# BASA Animation Switcher for TECNO CX Air
+# Boot Animation Switcher for TECNO CX Air
 
 ## Description
 
-All the real and official three versions of WatchDogs animation for TECNO Camon CX Air.
+All the real and official three versions of WatchDogs boot animation and some other cool boot animations purely extracted from their source for TECNO Camon CX Air.
 
-Changes the bootanimation animation and shutanimation to watchdogs with the one you want from all the three versions included in this module.
+Changes the bootanimation animation and shutanimation to watchdogs and some other cool boot animations with the one you want from all the available boot animations included in this module.
 
 You can select between all the three version of watchdogs boot animation using your volume key during installation. As simple as that!
 
@@ -38,20 +38,32 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Changelog
 
 ### v1.0-(Jifar)
+- Added codename Jifar.
 - Initial Release.
   
 ### v2.0-(Fasil)
+- Added codename Fasil.
 - Added watchdogs version two of watchdogs animation.
 - Improved verbose during installation to make it fully understandable by the user.
 - Code cleanup. Thanks to [Skittles9823](https://t.me/Skittles9823) for giving his advise to clean unnecessary spaces and a lot more.
   
 ### v3.0-(Utopia)
+- Added codename Utopia.
 - Moved to Unity template 4.4.
 - All the animations re-adjusted to fit the phones screen resolution and size. So no more boring placement of the animations.
 - Updated device identification logic.
-- Added ASCII Art shown during installation.
 - Works only on Stock Nougat ROM.
 - Added version three of watchdogs animation.
+
+### v4.0-(Ertale)
+- Added codename Ertale.
+- Fixed mismatched resolution on the previous versions.
+- Updated all the installation script.
+- Updated device identification logic.
+- Added Resurrection Remix Oreo v-1 boot animation.
+- Added Resurrection Remix Oreo v-2 boot animation.
+- Added Resurrection Remix Pie boot animation.
+- More and more stable version in comparison to thr previous builds.
 
 ## Credits
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
@@ -63,5 +75,5 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
   
 ## Links
 - [Author's Telegram Profile](https://t.me/Mikesew1320)
-- [Telegram Channel](https://t.me/MStoreEthiopia)
+- [Telegram Channel](https://t.me/MGStoreEthiopia)
 - [YouTube Channel](https://www.youtube.com/channel/UCDzQAIZ9lAzKAkQHVrJHssA)
