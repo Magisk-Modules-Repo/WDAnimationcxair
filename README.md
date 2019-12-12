@@ -28,7 +28,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
 ## Telegram Support Group
--   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MStoreEthiopiaG)
+-   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MGStoreEthiopiaG)
 
 ## Requirements
 -   [![TECNO CX Air](https://img.shields.io/badge/TECNO-CX%20Air-yellow)](https://m.gsmarena.com/tecno_camon_cx_air-ampp-9445.php)
