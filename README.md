@@ -24,6 +24,10 @@ ANYONE WHO IS INTERESTED ON THIS MODULE AND WANT TO MAKE HIS DEVICE TO BE SUPPOR
 
 If you want to change your choice again flash the module twice from TWRP or Magisk Manager then module becomes uninstalled in the first flash and you can choice again with the second flash.
 
+## Can I see preview of the animations included in this module?
+
+No, b/c it's only a script.
+
 ## How to Uninstall ?
 
 If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager.
@@ -78,7 +82,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Credits
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
 - ahrion & zackptg5 for [Unity template](https://github.com/Zackptg5/Unity)
-- Thanks to [Skittles9823](https://t.me/Skittles9823) , [VR25](https://t.me/vr25xda) & [John Fawkes](https://t.me/johnfawkes) for helping me on many concepts without bored with my noob questions.
+- Thanks to [Skittles9823](https://t.me/Skittles9823), [Zachptg5](https://t.me/zackptg5) , [VR25](https://t.me/vr25xda) & [John Fawkes](https://t.me/johnfawkes) for helping me on many concepts without bored with my noob questions.
 - Thanks to [Jaymin Suthar](https://t.me/JayminSuthar1910) and [Filippo](https://t.me/MarcAnt01) for helping me on how to summit and git related issues in detail.
 - Also thanks for all of my Telegram friend who helped me on everything!
 - And also join the telegram channel [Boot Animation](https://t.me/lootanimations) to get more cool boot animations for free!
