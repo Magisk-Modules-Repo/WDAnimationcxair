@@ -1,3 +1,9 @@
+#Boot Animation Switcher for supported android devices.
+#Script written by Mikesew1320
+#Contact me on Telegram, GitHub, XDA or Hovatek using my username.
+#Script written in Jimma, Ethiopia
+#Copyright FridayJanuary 10, 2020
+
 MODEL=`getprop ro.product.model`
 RELEASE=`getprop ro.build.version.release`
 BRAND=`getprop ro.product.brand`
@@ -25,22 +31,15 @@ if $BOOTMODE; then
 else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
-if [ $BRAND = "TECNO" ]; then
+if [ $BRAND == "TECNO" ] && [$BRAND == "samsung"]; then
   ui_print " SUPPORTED DEVICE DETECTED! "
   ui_print " "
-else
-  abort "  => '"$BRAND"' devices are not supported"
 fi
-
-if [ $DEVICE != "H3713" ]; then
+if [ $DEVICE != "H3713" ] && [ $DEVICE != " lineage_a5y17lte" ]; then
   abort "  => '"$DEVICE"' is not supported!"
 fi
 
-if [ $RELEASE != "7.0" ] && [ $RELEASE != "7.0" ]; then
-  abort "  => Android version '"$RELEASE"' is not supported"
-fi
-
-if [ $RELEASE == "7.0" ]; then
+if [ $RELEASE == "7.0" ] && [ $BRAND == "TECNO" ];  then
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                "
@@ -101,14 +100,48 @@ fi
 fi
 fi
 fi
+if [ $RELEASE == "9" ] && [ $BRAND == "samsung" ];  then
+  ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                "
+  ui_print " "
+  if $VKSEL; then
+    mkdir -p $UNITY/system/media/
+    cp_ch $TMPDIR/Bootanimations/bootanimation11.zip $UNITY/system/media/bootanimation.zip
+    else
+  ui_print "                 WATCHDOGS-v2 BOOTANIMATION                  "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+if $VKSEL; then                
+    mkdir -p $UNITY/system/media
+    cp_ch $TMPDIR/Bootanimations/bootanimation22.zip $UNITY/system/media/bootanimation.zip
+    else
+  ui_print "                 WATCHDOGS-v3 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then                
+    mkdir -p $UNITY/system/media
+    cp_ch $TMPDIR/Bootanimations/bootanimation33.zip $UNITY/system/media/bootanimation.zip
+    fi
+  fi
+  fi
+  fi
+if [ $BRAND == "TECNO" ]; then
 ui_print " Installing bootanimation on TECNO Camon CX Air..."
 ui_print " Installing shutanimation on TECNO Camon CX Air..."
+if [ $BRAND == "samsung" ]; then
+ui_print " Installing bootanimation on SAMSUNG GALAXY A5 2017..."
+ui_print " Installing shutanimation on SAMSUNG GALAXY A5 2017..."
+fi
+fi
   ui_print " "
   ui_print "             ANIMATIONS SUCCESSFULLY INSTALLED!             "  
   ui_print " "
   ui_print "          Created by Mikesew1320 @ Hovatek Forum           "
   ui_print " "
-  ui_print "  Join my Telegram channel http://t.me/MStoreEthiopia.....  "
+  ui_print "  Join my Telegram channel http://t.me/MGStoreEthiopia.....  "
   ui_print " "
-  ui_print "                     © December 12-2019 G.C                     "
+  ui_print "                     © January 10-2020 G.C                     "
   ui_print " "

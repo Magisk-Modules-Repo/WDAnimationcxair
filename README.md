@@ -1,24 +1,28 @@
-# Boot Animation Switcher for TECNO CX Air
+# Boot Animation Switcher
 
 ## Description
 
-All the real and official three versions of WatchDogs boot animation and some other cool boot animations purely extracted from their source for TECNO Camon CX Air.
+All the real and official three versions of WatchDogs boot animation and some other cool boot animations purely extracted from their source for any supported android device.
 
 Changes the bootanimation animation and shutanimation to watchdogs and some other cool boot animations with the one you want from all the available boot animations included in this module.
 
-You can select between all the three version of watchdogs boot animation using your volume key during installation. As simple as that!
+You can select from all the available boot animation or shutdown animation using your volume key during installation. As simple as that!
 
 ## Can I request another cool boot or shut animation ?
 
-Generally No. As the name suggested it is only a swithcher for watchdogs boot and shut anination. so you can't request another boot or shut animation because it makes the module size too big than this but you can contact me using my Telegram account below if you have any issue or another adjusted boot animations only for TECNO CX Air. For the future I will try to add ability to install animations placed in a specific folder in your phones internal storage.
+Yes, You can request boot animation or shut animation using my Telegram account below then I will try to fulfill your request in future updates.
+
+## Is shutdown animation is supported by all devices?
+
+No, It's device specific.
+
+## ANNOUNCEMENT!!
+
+ANYONE WHO IS INTERESTED ON THIS MODULE AND WANT TO MAKE HIS DEVICE TO BE SUPPORTED BY THIS MODULE CAN CONTACT ME USING MY TELEGRAM ACCOUNT BELOW THEN I CAN ADD SUPPORT FOR YOUR DEVICE IN FUTURE UPDATES.
 
 ## What can I do if I want to change my choice ?
 
 If you want to change your choice again flash the module twice from TWRP or Magisk Manager then module becomes uninstalled in the first flash and you can choice again with the second flash.
-
-## Why you make the module device specific ?
-
-Because all the animations included in this module are adjusted to fit the screen size and resolution of TECNO CX Air. So it doesn't fit with other devices resolution and screen size.
 
 ## How to Uninstall ?
 
@@ -31,9 +35,8 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MGStoreEthiopiaG)
 
 ## Requirements
--   [![TECNO CX Air](https://img.shields.io/badge/TECNO-CX%20Air-yellow)](https://m.gsmarena.com/tecno_camon_cx_air-ampp-9445.php)
--   [![Magisk](https://img.shields.io/badge/Magisk-18%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
--   [![Android 7.0](https://img.shields.io/badge/Android-7.0-violet.svg)](https://www.android.com/versions/nougat-7-0/)
+-   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
+-   Your little contribution to make your device supprted by this Magisk Module. 
 
 ## Changelog
 
@@ -58,12 +61,19 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ### v4.0-(Ertale)
 - Added codename Ertale.
 - Fixed mismatched resolution on the previous versions.
-- Updated all the installation script.
+- Updated installation logic.
 - Updated device identification logic.
 - Added Resurrection Remix Oreo v-1 boot animation.
 - Added Resurrection Remix Oreo v-2 boot animation.
 - Added Resurrection Remix Pie boot animation.
 - More and more stable version in comparison to thr previous builds.
+
+### v5.0-(Dalol)
+- Added codename Dalol.
+- Added support for Samsung Galaxy A5 2017
+- Fixed mismatched resolution on the previous versions.
+- Updated installation logic.
+- A road to Unity 5.0
 
 ## Credits
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)

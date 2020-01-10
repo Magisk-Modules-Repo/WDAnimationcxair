@@ -26,8 +26,8 @@ comp_check
 # Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
 # Uncomment SYSOVER if you want the mod to always be installed to system (even on magisk) - note that this can still be set to true by the user by adding 'sysover' to the zipname
 # Uncomment DEBUG if you want full debug logs (saved to /sdcard in magisk manager and the zip directory in twrp) - note that this can still be set to true by the user by adding 'debug' to the zipname
-MINAPI=24
-MAXAPI=24
+#MINAPI=24
+#MAXAPI=24
 #DYNLIB=true
 #SYSOVER=true
 #DEBUG=true
@@ -65,14 +65,14 @@ REPLACE="
 print_modname() {
   ui_print " "
   ui_print " *********************************************************** "
-  ui_print "       BOOT ANIMATION SWITCHER FOR TECNO CAMON CX AIR    "
+  ui_print "                  BOOT ANIMATION SWITCHER                "
   ui_print " "
   ui_print " DON'T FORGET TO GIVE All THE CREDIT TO THE OFFICIAL "
-  ui_print " WATCHDOGS BOOTANIMATION CREATOR'S! "
+  ui_print " CREATOR'S OF THE BOOTANIMATIONS INCLUDED IN THIS MODULE! "
   ui_print " "
   ui_print " *********************************************************** "
-  ui_print " Thanks to Skittles9823, VR25 & JOHN FAWKES @ xda-developers "
-  ui_print " for helping me with many concepts without bored with my "
+  ui_print " Thanks to Skittles9823, Zackptg5, Vr25 & John Fawkes @ xda- "
+  ui_print " developers for helping me with many concepts without bored with my "
   ui_print " noob questions. "
   ui_print " "
   ui_print " Thanks to Jaymin Suthar & Filippo for helping me on how to " 
