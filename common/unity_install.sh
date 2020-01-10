@@ -35,7 +35,7 @@ if [ $BRAND == "TECNO" ] && [$BRAND == "samsung"]; then
   ui_print " SUPPORTED DEVICE DETECTED! "
   ui_print " "
 fi
-if [ $DEVICE != "H3713" ] && [ $DEVICE != " lineage_a5y17lte" ]; then
+if [ $DEVICE != "H3713" ] && [ $DEVICE != " LinageSMGA" ]; then
   abort "  => '"$DEVICE"' is not supported!"
 fi
 
