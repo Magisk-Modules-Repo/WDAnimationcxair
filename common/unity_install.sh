@@ -35,7 +35,7 @@ if [ $BRAND == "TECNO" ] && [$BRAND == "samsung"]; then
   ui_print " SUPPORTED DEVICE DETECTED! "
   ui_print " "
 fi
-if [ $DEVICE != "H3713" ] && [ $DEVICE != " LinageSMGA" ]; then
+if [ $DEVICE != "H3713" ] && [ $MODEL != " SM-A520F " ]; then
   abort "  => '"$DEVICE"' is not supported!"
 fi
 
@@ -100,7 +100,7 @@ fi
 fi
 fi
 fi
-if [ $RELEASE == "9" ] && [ $BRAND == "samsung" ];  then
+if [ $RELEASE == "9" ] && [ $MODEL == "SM-A520F" ];  then
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                "
@@ -131,7 +131,7 @@ if $VKSEL; then
 if [ $BRAND == "TECNO" ]; then
 ui_print " Installing bootanimation on TECNO Camon CX Air..."
 ui_print " Installing shutanimation on TECNO Camon CX Air..."
-if [ $BRAND == "samsung" ]; then
+if [ $MODEL == "SM-A520F" ]; then
 ui_print " Installing bootanimation on SAMSUNG GALAXY A5 2017..."
 ui_print " Installing shutanimation on SAMSUNG GALAXY A5 2017..."
 fi
