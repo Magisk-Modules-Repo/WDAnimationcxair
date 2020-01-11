@@ -10,7 +10,6 @@ BRAND=`getprop ro.product.brand`
 DEVICE=`getprop ro.product.name`
 BUILD=`getprop ro.build.display.id`
 CHIPSET=$(getprop ro.board.platform | tr '[:lower:]' '[:upper:]')
-
 ui_print " "
 ui_print "  Performing device compatibility check..."
 ui_print " "
@@ -31,15 +30,12 @@ if $BOOTMODE; then
 else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
-if [ $BRAND == "TECNO" ] && [$BRAND == "samsung"]; then
-  ui_print " SUPPORTED DEVICE DETECTED! "
-  ui_print " "
-fi
-if [ $DEVICE != "H3713" ] && [ $MODEL != " SM-A520F " ]; then
-  abort "  => '"$DEVICE"' is not supported!"
-fi
-
+case $DEVICE in 
+  "H3713"|"pine"|"lineage_a5y17lte"|"aosp_tissot") ui_print " SUPPORTED DEVICE DETECTED! ";;
+  *) abort "  => '"$DEVICE"' is not supported!";;
+esac
 if [ $RELEASE == "7.0" ] && [ $BRAND == "TECNO" ];  then
+  ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                "
@@ -101,6 +97,7 @@ fi
 fi
 fi
 if [ $RELEASE == "9" ] && [ $MODEL == "SM-A520F" ];  then
+  ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                "
@@ -128,12 +125,43 @@ if $VKSEL; then
   fi
   fi
   fi
+  if [ $RELEASE == "10" ] && [ $MODEL == "Mi A1" ];  then
+  ui_print " "
+  ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                "
+  ui_print " "
+  if $VKSEL; then
+    mkdir -p $UNITY/system/product/media/
+    cp_ch $TMPDIR/Bootanimations/bootanimation11.zip $UNITY/system/product/media/bootanimation.zip
+    else
+  ui_print "                 WATCHDOGS-v2 BOOTANIMATION                  "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+if $VKSEL; then                
+    mkdir -p $UNITY/system/product/media
+    cp_ch $TMPDIR/Bootanimations/bootanimation22.zip $UNITY/system/product/media/bootanimation.zip
+    else
+  ui_print "                 WATCHDOGS-v3 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then                
+    mkdir -p $UNITY/system/media
+    cp_ch $TMPDIR/Bootanimations/bootanimation33.zip $UNITY/system/product/media/bootanimation.zip
 if [ $BRAND == "TECNO" ]; then
 ui_print " Installing bootanimation on TECNO Camon CX Air..."
 ui_print " Installing shutanimation on TECNO Camon CX Air..."
 if [ $MODEL == "SM-A520F" ]; then
 ui_print " Installing bootanimation on SAMSUNG GALAXY A5 2017..."
-ui_print " Installing shutanimation on SAMSUNG GALAXY A5 2017..."
+if [ $MODEL == "Mi A1" ]; then
+ui_print " Installing bootanimation on SAMSUNG GALAXY A5 2017..."
+fi
+fi
+fi
+fi
+fi
 fi
 fi
   ui_print " "
