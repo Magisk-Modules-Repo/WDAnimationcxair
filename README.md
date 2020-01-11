@@ -74,12 +74,21 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 ### v5.0-(Dalol)
 - Added codename Dalol.
-- Added support for Samsung Galaxy A5 2017
+- Added support for Samsung Galaxy A5 2017.
 - Fixed mismatched resolution on the previous versions.
 - Updated installation logic.
 - A road to Unity 5.0
 
-## Credits
+### v5.5-(Lalibela)
+- Added codename Lalibella.
+-Added support for Xiaomi Mi A1.
+- Improved support for Samsung Galaxy A5 2017.
+- More Accurate and specific device identification logic.
+- I Hope more devices will be supported soon, just contact me.
+- Updated installation logic.
+- Fixed wrong syntax.
+- A road to Unity 5.0
+
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
 - ahrion & zackptg5 for [Unity template](https://github.com/Zackptg5/Unity)
 - Thanks to [Skittles9823](https://t.me/Skittles9823), [Zachptg5](https://t.me/zackptg5) , [VR25](https://t.me/vr25xda) & [John Fawkes](https://t.me/johnfawkes) for helping me on many concepts without bored with my noob questions.
