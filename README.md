@@ -89,6 +89,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
+## Special Thanks
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
 - ahrion & zackptg5 for [Unity template](https://github.com/Zackptg5/Unity)
 - Thanks to [Skittles9823](https://t.me/Skittles9823), [Zachptg5](https://t.me/zackptg5) , [VR25](https://t.me/vr25xda) & [John Fawkes](https://t.me/johnfawkes) for helping me on many concepts without bored with my noob questions.
