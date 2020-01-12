@@ -33,7 +33,7 @@ No, b/c it's only a script.
 If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager.
 
 ## Where is the module created?
--   [![Created with ❤️ in Ethiopia](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://en.m.wikipedia.org/wiki/Ethiopia)
+-   [![Created in Ethiopia](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
 ## Telegram Support Group
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MGStoreEthiopiaG)
@@ -81,10 +81,18 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 ### v5.5-(Lalibela)
 - Added codename Lalibella.
--Added support for Xiaomi Mi A1.
+- Added support for Xiaomi Mi A1.
 - Improved support for Samsung Galaxy A5 2017.
 - More Accurate and specific device identification logic.
 - I Hope more devices will be supported soon, just contact me.
+- Updated installation logic.
+- Fixed wrong syntax.
+- A road to Unity 5.0
+
+### v6.0-(Abay)
+- Added codename Abay.
+- Added support for Motorola Moto G4 Play.
+- Full support for Samsung Galaxy A5 2017.
 - Updated installation logic.
 - Fixed wrong syntax.
 - A road to Unity 5.0
