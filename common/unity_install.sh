@@ -31,7 +31,7 @@ else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
 case $DEVICE in 
-  "H3713"|"pine"|"lineage_a5y17lte"|"aosp_tissot") ui_print " SUPPORTED DEVICE DETECTED! ";;
+  "H3713"|"pine"|"a5y17lte"|"aosp_tissot") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
 if [ $RELEASE == "7.0" ] && [ $BRAND == "TECNO" ];  then
