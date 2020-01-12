@@ -6,7 +6,7 @@
 
 MODEL=`getprop ro.product.model`
 RELEASE=`getprop ro.build.version.release`
-BRAND=`getprop ro.product.brand`
+BRAND=$(getprop ro.product.brand | tr '[:lower:]' '[:upper:]')
 DEVICE=`getprop ro.product.name`
 BUILD=`getprop ro.build.display.id`
 CHIPSET=$(getprop ro.board.platform | tr '[:lower:]' '[:upper:]')
@@ -34,7 +34,14 @@ case $DEVICE in
   "H3713"|"pine"|"a5y17lte"|"aosp_tissot") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
-if [ $RELEASE == "7.0" ] && [ $BRAND == "TECNO" ];  then
+if [ $RELEASE == "7.0" ] || [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
+if [ $DEVICE == "H3713" ]; then 
+ui_print " "
+ui_print "Start installing boot animation on TECNO Camon CX Air... "
+if [ $DEVICE == "aosp_harpia" ]; then 
+ui_print "Start installing boot animation on Motorola Moto G4 Play... "
+fi
+fi
   ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
@@ -89,6 +96,12 @@ if $VKSEL; then
   mkdir -p $UNITY/system/media
   cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/bootanimation.zip
   cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/shutanimation.zip
+  if $DEVICE == "H3713" ; then
+ui_print " Installing bootanimation on TECNO Camon CX Air..."
+ if $BRAND == "Motorola" ; then
+ ui_print " Installing bootanimation on Motorola Moto G4 Play..."
+fi
+fi
 fi
 fi
 fi
@@ -97,6 +110,8 @@ fi
 fi
 fi
 if [ $RELEASE == "9" ] && [ $MODEL == "SM-A520F" ];  then
+ui_print " "
+ui_print "Start installing boot animation on Samsung Galaxy A5 2017... "
   ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
@@ -121,7 +136,8 @@ if $VKSEL; then
   if $VKSEL; then                
     mkdir -p $UNITY/system/media
     cp_ch $TMPDIR/Bootanimations/bootanimation33.zip $UNITY/system/media/bootanimation.zip
-    fi
+ui_print "Installing bootanimation on SAMSUNG GALAXY A5 2017..."
+  fi
   fi
   fi
   fi
@@ -146,20 +162,10 @@ if $VKSEL; then
   ui_print "                 WATCHDOGS-v3 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                 "
-  ui_print " "
   if $VKSEL; then                
     mkdir -p $UNITY/system/media
     cp_ch $TMPDIR/Bootanimations/bootanimation33.zip $UNITY/system/product/media/bootanimation.zip
-if [ $BRAND == "TECNO" ]; then
-ui_print " Installing bootanimation on TECNO Camon CX Air..."
-ui_print " Installing shutanimation on TECNO Camon CX Air..."
-if [ $MODEL == "SM-A520F" ]; then
-ui_print " Installing bootanimation on SAMSUNG GALAXY A5 2017..."
-if [ $MODEL == "Mi A1" ]; then
-ui_print " Installing bootanimation on SAMSUNG GALAXY A5 2017..."
-fi
-fi
-fi
+ui_print " Installing bootanimation on Xiaomi Mi A1..."
 fi
 fi
 fi
@@ -171,5 +177,5 @@ fi
   ui_print " "
   ui_print "  Join my Telegram channel http://t.me/MGStoreEthiopia.....  "
   ui_print " "
-  ui_print "                     © January 10-2020 G.C                     "
+  ui_print "                    © January 10-2020 G.C                     "
   ui_print " "

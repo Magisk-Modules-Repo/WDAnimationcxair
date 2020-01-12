@@ -33,7 +33,7 @@ No, b/c it's only a script.
 If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager.
 
 ## Where is the module created?
--   [![Created in Ethiopia](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://en.m.wikipedia.org/wiki/Ethiopia)
+-   [![Created with ❤️ in Ethiopia](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
 ## Telegram Support Group
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MGStoreEthiopiaG)
