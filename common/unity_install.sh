@@ -2,7 +2,7 @@
 #Script written by Mikesew1320
 #Contact me on Telegram, GitHub, XDA or Hovatek using my username.
 #Script written in Jimma, Ethiopia
-#Copyright FridayJanuary 10, 2020
+#Copyright FridayJanuary 11, 2020
 
 MODEL=`getprop ro.product.model`
 RELEASE=`getprop ro.build.version.release`
@@ -31,14 +31,14 @@ else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
 case $DEVICE in 
-  "H3713"|"pine"|"a5y17lte"|"aosp_tissot") ui_print " SUPPORTED DEVICE DETECTED! ";;
+  "H3713"|"pine"|"a5y17lte"|"aosp_tissot"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
-if [ $RELEASE == "7.0" ] || [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
+if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
 if [ $DEVICE == "H3713" ]; then 
 ui_print " "
 ui_print "Start installing boot animation on TECNO Camon CX Air... "
-if [ $DEVICE == "aosp_harpia" ]; then 
+if [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "lineage_harpia" ] ; then 
 ui_print "Start installing boot animation on Motorola Moto G4 Play... "
 fi
 fi
@@ -177,5 +177,5 @@ fi
   ui_print " "
   ui_print "  Join my Telegram channel http://t.me/MGStoreEthiopia.....  "
   ui_print " "
-  ui_print "                    © January 10-2020 G.C                     "
+  ui_print "                    © January 11-2020 G.C                     "
   ui_print " "
