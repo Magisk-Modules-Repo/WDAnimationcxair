@@ -7,7 +7,7 @@
 MODEL=`getprop ro.product.model`
 RELEASE=`getprop ro.build.version.release`
 BRAND=$(getprop ro.product.brand | tr '[:lower:]' '[:upper:]')
-DEVICE=`getprop ro.product.name`
+DEVICE=$(getprop ro.product.name | tr '[:lower:]' '[:upper:]')
 BUILD=`getprop ro.build.display.id`
 CHIPSET=$(getprop ro.board.platform | tr '[:lower:]' '[:upper:]')
 ui_print " "
@@ -20,7 +20,7 @@ ui_print "  MODEL           : "$MODEL
 ui_print "  CODENAME        : "$DEVICE
 ui_print "  BUILD NUMBER    : "$BUILD
 ui_print "  CHIPSET         : "$CHIPSET
-ui_print "  CPU ABI         : Arm64-v8a"
+ui_print "  CPU ABI         : "$ABILONG
 ui_print "  ANDROID VERSION : "$RELEASE
 ui_print "  SDK             : "$API
 ui_print " "
@@ -137,6 +137,35 @@ if $VKSEL; then
     mkdir -p $UNITY/system/media
     cp_ch $TMPDIR/Bootanimations/bootanimation33.zip $UNITY/system/media/bootanimation.zip
 ui_print "Installing bootanimation on SAMSUNG GALAXY A5 2017..."
+ui_print "          RESURRECTION REMIX OREO-V1 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimation4.zip $UNITY/system/media/bootanimation.zip
+  cp_ch $TMPDIR/Bootanimations/bootanimation4.zip $UNITY/system/media/shutanimation.zip
+  else
+    ui_print "          RESURRECTION REMIX OREO-V2 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimation5.zip $UNITY/system/media/bootanimation.zip
+  cp_ch $TMPDIR/Bootanimations/bootanimation5.zip $UNITY/system/media/shutanimation.zip
+  else
+    ui_print "            RESURRECTION REMIX PIE BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/bootanimation.zip
+  cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/shutanimation.zip
+  fi
+  fi
+  fi
   fi
   fi
   fi
