@@ -31,7 +31,7 @@ else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
 case $DEVICE in 
-  "H3713"|"pine"|"a5y17lte"|"aosp_tissot"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
+  "H3713"|"pine"|"a5y17lte"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
 if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
