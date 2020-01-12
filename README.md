@@ -89,7 +89,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
-### v6.0-(Abay)
+### v6.0-(Ras Dashen)
 - Added codename Abay.
 - Added support for Motorola Moto G4 Play.
 - Full support for Samsung Galaxy A5 2017.
