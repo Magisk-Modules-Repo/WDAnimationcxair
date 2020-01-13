@@ -1,6 +1,6 @@
 id=WDAnimationcxair
 name=Boot Animation Switcher
-version=v6.5-(Axum)
+version=v7.0-(Gibe)
 versionCode=65
 authorMikesew1320
 description=A module that helps to switch the boot and shutdown anmation to one of the animations included in this module for any supported device using volumekeys during installation.
