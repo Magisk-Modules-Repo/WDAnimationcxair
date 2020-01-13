@@ -97,6 +97,16 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
+### v6.5-(Axum)
+- Added codename Axum.
+- Added support for Xiaomi POCO F1.
+- Previously supported device stablity increased.
+- Fixed wrong animation usage.
+- Improved device identification logic.
+- Updated installation logic.
+- Fixed wrong syntax.
+- A road to Unity 5.0
+
 ## Special Thanks
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
 - ahrion & zackptg5 for [Unity template](https://github.com/Zackptg5/Unity)
