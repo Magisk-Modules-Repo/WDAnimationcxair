@@ -111,6 +111,17 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
+### v7.0-(GIBE)
+- Added codename Gibe.
+- Added support for OnePlus5.
+- Improved support for Xiaomi POCO F1.
+- Added support for Xiaomi Redmi 7a.
+- Added ability to show current module version during installation.
+- Improved device identification logic.
+- Updated installation logic.
+- Fixed wrong syntax.
+- A road to Unity 5.0
+
 ### If u have any issue or support request for your device please create an issue [here](https://github.com/Magisk-Modules-Repo/WDAnimationcxair/issues) or conta'ct me using Telegram [Mikesew1320](https://t.me/Mikesew1320)
 
 ## Special Thanks
