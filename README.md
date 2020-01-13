@@ -30,16 +30,20 @@ No, b/c it's only a script.
 
 ## How to Uninstall ?
 
+## What about Samsung phones having their boot animation in .qmg format?
+
+This module doesn't support them totally. Find a custom ROM that uses the formal .zip extension, then we can continue with it.
+
 If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager.
 
 ## Where is the module created?
--   [![Created in Ethiopia](https://img.shields.io/badge/Created%20in-Ethiopia-red)](https://en.m.wikipedia.org/wiki/Ethiopia)
+-   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
 ## Telegram Support Group
--   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/MGStoreEthiopiaG)
+-   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
 
 ## Requirements
--   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
+-   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-red)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
 -   Your little contribution to make your device supprted by this Magisk Module. 
 
 ## Changelog
