@@ -8,6 +8,7 @@ MODULEDIR="/data/adb/modules_update/$MODID"
 MODVER=$(grep_prop version $TMPDIR/module.prop)
 MODE=`getprop ro.product.system.device`
 MODEL=`getprop ro.product.model`
+#HARPIA=`getprop ro.product.device`
 RELEASE=`getprop ro.build.version.release`
 BRAND=$(getprop ro.product.brand | tr '[:lower:]' '[:upper:]')
 DEVICE=$(getprop ro.product.name | tr '[:lower:]' '[:upper:]')
@@ -34,8 +35,7 @@ if $BOOTMODE; then
 else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
-case $DEVICE in 
-  "H3713"|"pine"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
+case $DEVICE in "H3713"|"pine"|"FLAME"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
 if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
@@ -265,6 +265,36 @@ fi
 fi
 fi
 fi
+  if [ $RELEASE == "10" ] || [$RELEASE == 9] && [ $DEVICE == "pine" ];  then
+ui_print " "
+  ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                "
+  ui_print " "
+  if $VKSEL; then
+    mkdir -p $UNITY/system/media/
+    cp_ch $TMPDIR/Bootanimations/bootanimation111.zip $UNITY/system/media/bootanimation.zip
+    else
+  ui_print "                 WATCHDOGS-v2 BOOTANIMATION                  "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+if $VKSEL; then                
+    mkdir -p $UNITY/system/media
+    cp_ch $TMPDIR/Bootanimations/bootanimation222.zip $UNITY/system/media/bootanimation.zip
+    else
+  ui_print "              LINUX BOOTING BIOS BOOTANIMATION               "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimation333.zip $UNITY/system/media/bootanimation.zip
+  else
+  fi
+  fi
+  fi
+  fi
   ui_print "             ANIMATIONS SUCCESSFULLY INSTALLED!             "  
   ui_print " "
   ui_print "          Created by Mikesew1320 @ Hovatek Forum           "
