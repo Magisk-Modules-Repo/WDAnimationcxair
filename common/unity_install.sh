@@ -6,9 +6,11 @@
 
 MODULEDIR="/data/adb/modules_update/$MODID"
 MODVER=$(grep_prop version $TMPDIR/module.prop)
+ONEPLUS51=`getprop ro.oxygen.version`
+ONEPLUS5=`getprop ro.product.device`
 MODE=`getprop ro.product.system.device`
+MODESS=`getprop ro.product.system.name`
 MODEL=`getprop ro.product.model`
-#HARPIA=`getprop ro.product.device`
 RELEASE=`getprop ro.build.version.release`
 BRAND=$(getprop ro.product.brand | tr '[:lower:]' '[:upper:]')
 DEVICE=$(getprop ro.product.name | tr '[:lower:]' '[:upper:]')
@@ -41,7 +43,7 @@ esac
 if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
 if [ $DEVICE == "H3713" ]; then 
 ui_print " "
-ui_print "Start installing boot animation on TECNO Camon CX Air... "
+ui_print "  Start installing boot animation on TECNO Camon CX Air... "
 if [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "lineage_harpia" ] ; then 
 ui_print "Start installing boot animation on Motorola Moto G4 Play... "
 fi
@@ -133,7 +135,7 @@ ui_print " Start installing boot animation on Samsung Galaxy A5 2017... "
   ui_print " "
   if $VKSEL; then
     mkdir -p $UNITY/system/media/
-    cp_ch $TMPDIR/Bootanimations/bootanimation11.zip $UNITY/system/media/bootanimation.zip
+    cp_ch $TMPDIR/Bootanimations/bootanimation1.zip $UNITY/system/media/bootanimation.zip
     else
   ui_print "                 WATCHDOGS-v2 BOOTANIMATION                  "
   ui_print "         ******************************************         "
@@ -141,7 +143,7 @@ ui_print " Start installing boot animation on Samsung Galaxy A5 2017... "
   ui_print " "
 if $VKSEL; then                
     mkdir -p $UNITY/system/media
-    cp_ch $TMPDIR/Bootanimations/bootanimation22.zip $UNITY/system/media/bootanimation.zip
+    cp_ch $TMPDIR/Bootanimations/bootanimation2.zip $UNITY/system/media/bootanimation.zip
     else
   ui_print "              LINUX BOOTING BIOS BOOTANIMATION               "
   ui_print "         ******************************************         "
@@ -194,7 +196,7 @@ ui_print "          RESURRECTION REMIX OREO-V1 BOOTANIMATION                 "
   fi
   fi
   fi
-  if [ $RELEASE == "10" ] && [ $MODE == "beryllium" ];  then
+  if [ $RELEASE == "10" ] && [ $MODE == "beryllium" ] || [ $MODESS == "beryllium" ] || [ $DEVICE == "beryllium" ] ;  then
   ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
@@ -226,7 +228,7 @@ ui_print "          RESURRECTION REMIX OREO-V1 BOOTANIMATION                 "
   fi
   fi
   fi
-  if [ $RELEASE == "10" ] && [ $MODEL == "Mi A1" ];  then
+  if [ $RELEASE == "10" ] && [ $ONEPLUS51 == "9.0.10" ] && [ $MODEL == "Mi A1" ] && [ $ONEPLUS5 == "OnePlus5" ];  then
   ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
@@ -265,7 +267,7 @@ fi
 fi
 fi
 fi
-  if [ $RELEASE == "10" ] || [$RELEASE == 9] && [ $DEVICE == "pine" ];  then
+if [ $RELEASE == "10" ] || [$RELEASE == 9] && [ $DEVICE == "pine" ] || [ $MODESS == "treble_a64_bvN";  then
 ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
@@ -290,9 +292,6 @@ if $VKSEL; then
   if $VKSEL; then
   mkdir -p $UNITY/system/media
   cp_ch $TMPDIR/Bootanimations/bootanimation333.zip $UNITY/system/media/bootanimation.zip
-  else
-  fi
-  fi
   fi
   fi
   ui_print "             ANIMATIONS SUCCESSFULLY INSTALLED!             "  
@@ -303,3 +302,5 @@ if $VKSEL; then
   ui_print " "
   ui_print "                    © January 13-2020 G.C                     "
   ui_print " "
+  fi
+  fi
