@@ -111,6 +111,8 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
+### If u have any issue or support request for your device please create an issue [here](https://github.com/Magisk-Modules-Repo/WDAnimationcxair/issues) or conta'ct me using Telegram [Mikesew1320](https://t.me/Mikesew1320)
+
 ## Special Thanks
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
 - ahrion & zackptg5 for [Unity template](https://github.com/Zackptg5/Unity)
@@ -123,3 +125,4 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - [Author's Telegram Profile](https://t.me/Mikesew1320)
 - [Telegram Channel](https://t.me/MGStoreEthiopia)
 - [YouTube Channel](https://www.youtube.com/channel/UCDzQAIZ9lAzKAkQHVrJHssA)
+- [GitHub](https://github.com/Magisk-Modules-Repo/WDAnimationcxair)
