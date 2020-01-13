@@ -4,6 +4,8 @@
 #Script written in Jimma, Ethiopia
 #Copyright FridayJanuary 13, 2020
 
+MODULEDIR="/data/adb/modules_update/$MODID"
+MODVER=$(grep_prop version $TMPDIR/module.prop)
 MODE=`getprop ro.product.system.device`
 MODEL=`getprop ro.product.model`
 RELEASE=`getprop ro.build.version.release`
@@ -23,6 +25,7 @@ ui_print "  BUILD NUMBER    : "$BUILD
 ui_print "  CHIPSET         : "$CHIPSET
 ui_print "  CPU ABI         : "$ABILONG
 ui_print "  ANDROID VERSION : "$RELEASE
+ui_print "  MODULE VERSION  : "$MODVER
 ui_print "  SDK             : "$API
 ui_print " "
 
@@ -32,7 +35,7 @@ else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
 case $DEVICE in 
-  "H3713"|"pine"|"a5y17lte"|"jackpotlte"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
+  "H3713"|"pine"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
 if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
@@ -192,7 +195,8 @@ ui_print "          RESURRECTION REMIX OREO-V1 BOOTANIMATION                 "
   fi
   fi
   if [ $RELEASE == "10" ] && [ $MODE == "beryllium" ];  then
-  ui_print "          RESURRECTION REMIX OREO-V2 BOOTANIMATION                 "
+  ui_print " "
+  ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                Vol Up = Yes, Vol Down = No                 "
   ui_print " "
@@ -201,7 +205,7 @@ ui_print "          RESURRECTION REMIX OREO-V1 BOOTANIMATION                 "
   cp_ch $TMPDIR/Bootanimations/bootanimationPC1.zip $UNITY/system/media/bootanimation.zip
   cp_ch $TMPDIR/Bootanimations/bootanimationPC1.zip $UNITY/system/media/shutanimation.zip
   else
-    ui_print "            RESURRECTION REMIX PIE BOOTANIMATION                 "
+    ui_print "                 WATCHDOGS-v2 BOOTANIMATION                  "
   ui_print "         ******************************************         "
   ui_print "                Vol Up = Yes, Vol Down = No                 "
   ui_print " "
