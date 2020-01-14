@@ -6,6 +6,7 @@
 
 MODULEDIR="/data/adb/modules_update/$MODID"
 MODVER=$(grep_prop version $TMPDIR/module.prop)
+MODDEV=$(grep_prop author $TMPDIR/module.prop)
 ONEPLUS51=`getprop ro.oxygen.version`
 ONEPLUS5=`getprop ro.product.device`
 MODE=`getprop ro.product.system.device`
@@ -31,15 +32,16 @@ ui_print "  CPU ABI         : "$ABILONG
 ui_print "  ANDROID VERSION : "$RELEASE
 ui_print "  SCREEN RESOLU.N : $SIZE"
 ui_print "  MODULE VERSION  : "$MODVER
+ui_print "  MODULE DEVELOPER: "$MODDEV
 ui_print "  SDK             : "$API
-ui_print " "
 
 if $BOOTMODE; then
+  ui_print ""
   ui_print " MAGISK MANAGER INSTALLATION DETECTED! "
 else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
-case $DEVICE in "H3713"| "omni_treble"|"j7velte"|"ONEPLUS5"|"pine"|"FLAME"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
+case $DEVICE in "H3713"|"Hello"| "beryllium"|"omni_treble"|"j7velte"|"ONEPLUS5"|"pine"|"FLAME"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
 if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
@@ -69,7 +71,7 @@ if $VKSEL; then
     mkdir -p $UNITY/system/media
     cp_ch $TMPDIR/Bootanimations/bootanimation2.zip $UNITY/system/media/bootanimation.zip
     cp_ch $TMPDIR/Bootanimations/bootanimation2.zip $UNITY/system/media/shutanimation.zip
-    ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
+    ui_print "          BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
     else
   ui_print "              BOOTLEGGERS V1 BOOT BOOTANIMATION              "
   ui_print "         ******************************************         "
@@ -121,6 +123,26 @@ if $VKSEL; then
   cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/shutanimation.zip
   ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
   else
+  ui_print "          RESURRECTION REMIX NOUGAT BOOTANIMATION               "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then                
+    mkdir -p $UNITY/system/media
+    cp_ch $TMPDIR/Bootanimations/bootanimation9.zip $UNITY/system/media/bootanimation.zip
+    cp_ch $TMPDIR/Bootanimations/bootanimation9.zip $UNITY/system/media/shutanimation.zip
+  ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             " 
+  else
+  ui_print "               AOSP EXTENDED PIE BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimation8.zip $UNITY/system/media/bootanimation.zip
+  cp_ch $TMPDIR/Bootanimations/bootanimation8.zip $UNITY/system/media/shutanimation.zip
+  ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
+  else
   if [ $DEVICE =="H3713" ] && [ $RELEASE == 7.0]; then
   ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
 fi
@@ -128,6 +150,8 @@ fi
   ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
  fi
  fi
+fi
+fi
 fi
 fi
 fi
@@ -164,6 +188,16 @@ if $VKSEL; then
     mkdir -p $UNITY/system/media
     cp_ch $TMPDIR/Bootanimations/bootanimation33.zip $UNITY/system/media/bootanimation.zip
   ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
+  else
+  ui_print "               BOOTLEGGERS V2 BOOTANIMATION              "
+  ui_print "         ******************************************         "
+  ui_print "                          Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimation7.zip $UNITY/system/media/bootanimation.zip
+  cp_ch $TMPDIR/Bootanimations/bootanimation7.zip $UNITY/system/media/shutanimation.zip
+  ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
   ui_print "          RESURRECTION REMIX OREO-V1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
   ui_print "                Vol Up = Yes, Vol Down = No                 "
@@ -192,16 +226,6 @@ if $VKSEL; then
   mkdir -p $UNITY/system/media
   cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/bootanimation.zip
   cp_ch $TMPDIR/Bootanimations/bootanimation6.zip $UNITY/system/media/shutanimation.zip
-  ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
-  else
-  ui_print "                LINUX BOOTING BIOS BOOTANIMATION              "
-  ui_print "         ******************************************         "
-  ui_print "                          Vol Up = Yes, Vol Down = No                 "
-  ui_print " "
-  if $VKSEL; then
-  mkdir -p $UNITY/system/media
-  cp_ch $TMPDIR/Bootanimations/bootanimation7.zip $UNITY/system/media/bootanimation.zip
-  cp_ch $TMPDIR/Bootanimations/bootanimation7.zip $UNITY/system/media/shutanimation.zip
   ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
   fi
   fi
@@ -374,6 +398,7 @@ if $VKSEL; then
   fi
   ui_print " "
   ui_print " *********************************************************** "
+  ui_print " *********************************************************** "
   ui_print " "
   ui_print " Start installing Emoji on your device... "
   ui_print " "
@@ -385,8 +410,8 @@ if $VKSEL; then
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/JoyPixel45.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/WhatsApp21962.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/JoyPixel45.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/JoyPixel45.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
   ui_print "                         ANDROID PIE               "
@@ -395,8 +420,8 @@ if $VKSEL; then
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/ANDROIDPIE.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/WhatsApp21962.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/AndroidPie.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/AndroidPie.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
   ui_print "                           WINDOWS               "
@@ -405,38 +430,38 @@ if $VKSEL; then
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/Windows.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/WhatsApp21962.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Windows.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Windows.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
-  ui_print "                     WHATSAPP V2.17.62               "
+  ui_print "                       WHATSAPP V2.17.62               "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                 "
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/Whatsapp21962.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/Whatsapp21962.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Whatsapp21962.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Whatsapp21962.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
-  ui_print "                     SAMSUNG ONE UI               "
+  ui_print "                        SAMSUNG ONE UI               "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                 "
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/SamsungOneUI.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/SamsungOneUI.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/SamsungOneUI.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/SamsungOneUI.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
-  ui_print "                     TWITTER  V11.3               "
+  ui_print "                        TWITTER  V11.3               "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                 "
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/Twitter.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/Twitter.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Twitter.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Twitter.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
   ui_print "                          IOS 13               "
@@ -445,19 +470,30 @@ if $VKSEL; then
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/IOS13.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/IOS13.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/IOS13.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/IOS13.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
   else
-  ui_print "                         APPPLE               "
+  ui_print "                          APPPLE               "
   ui_print "         ******************************************         "
   ui_print "                 Vol Up = Yes, Vol Down = No                 "
   ui_print " "
   if $VKSEL; then
   mkdir -p $UNITY/system/fonts
-  cp_ch $TMPDIR/common/Emojis/Apple.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
-  cp_ch $TMPDIR/common/Emojis/Apple.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Apple.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Apple.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
   ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
+  else
+  ui_print "                        FACEBOOK V3               "
+  ui_print "         ******************************************         "
+  ui_print "                 Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/fonts
+  cp_ch $TMPDIR/Bootanimations/Facebook3.ttf $UNITY/system/fonts/NotoColorEmoji.ttf
+  cp_ch $TMPDIR/Bootanimations/Facebook3.ttf $UNITY/system/fonts/SamsungColorEmoji.ttf
+  ui_print "                EMOJIS SUCCESSFULLY INSTALLED!             "  
+  fi
   fi
   fi
   fi
