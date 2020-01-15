@@ -89,8 +89,6 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 6. OnePlus 5T
 7. OnePlus 6T
 
-### N.B :- EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
-
 ## Changelog
 
 ### v1.0-(Jifar)
@@ -197,9 +195,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Magisk Manager Template
 
-
-
-
+### NOTE! - EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
 
 ### If u have any issue or support request for your device please create an issue [here](https://github.com/Magisk-Modules-Repo/WDAnimationcxair/issues) or conta'ct me using Telegram [Mikesew1320](https://t.me/Mikesew1320)
 
