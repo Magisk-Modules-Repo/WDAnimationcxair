@@ -265,6 +265,17 @@ if $VKSEL; then
   mkdir -p $UNITY/system/media
   cp_ch $TMPDIR/Bootanimations/bootanimationPC3.zip $UNITY/system/media/bootanimation.zip
   ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
+  else
+  ui_print "               AOSP EXTENDED PIE BOOTANIMATION                 "
+  ui_print "         ******************************************         "
+  ui_print "                Vol Up = Yes, Vol Down = No                 "
+  ui_print " "
+  if $VKSEL; then
+  mkdir -p $UNITY/system/media
+  cp_ch $TMPDIR/Bootanimations/bootanimationPC5.zip $UNITY/system/media/bootanimation.zip
+  cp_ch $TMPDIR/Bootanimations/bootanimationPC5.zip $UNITY/system/media/shutanimation.zip
+  ui_print "           BOOT ANIMATIONS SUCCESSFULLY INSTALLED!             "  
+  fi
   fi
   fi
   fi
