@@ -62,10 +62,13 @@ REPLACE="
 
 # Set what you want to display when installing your module
 
+MODDIR="/data/adb/module_update/$MODID/"
+MODVER=$(grep_prop version $TMPDIR/module.prop)
 print_modname() {
   ui_print " "
   ui_print " *********************************************************** "
-  ui_print "                  BOOT ANIMATION SWITCHER                "
+  ui_print "                     BootAMoji Switcher                "
+  ui_print "                                  " $MODVER                              
   ui_print " "
   ui_print " DON'T FORGET TO GIVE All THE CREDIT TO THE OFFICIAL "
   ui_print " CREATOR'S OF THE BOOTANIMATIONS INCLUDED IN THIS MODULE! "
