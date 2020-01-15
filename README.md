@@ -28,8 +28,6 @@ If you want to change your choice again flash the module twice from TWRP or Magi
 
 No, b/c it's only a script.
 
-## How to Uninstall ?
-
 ## What about Samsung phones having their boot animation in .qmg format?
 
 This module doesn't support them totally. Find a custom ROM that uses the formal .zip extension, then we can continue with it.
@@ -140,7 +138,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - I Hope more devices will be supported soon, just contact me.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Unity 5.0
+- A road to Magisk Manager Template
 
 ### v6.0-(Ras Dashen)
 - Added codename Abay.
@@ -148,7 +146,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Full support for Samsung Galaxy A5 2017.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Unity 5.0
+- A road to Magisk Manager Template
 
 ### v6.5-(Axum)
 - Added codename Axum.
@@ -158,7 +156,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Improved device identification logic.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Unity 5.0
+- A road to Magisk Manager Template
 
 ### v7.0-(Gibe)
 - Added codename Gibe.
@@ -169,7 +167,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Improved device identification logic.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Unity 5.0
+- A road to Magisk Manager Template
 
 ### v7.5-(Harar)
 
@@ -186,7 +184,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Well-written README.md.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Unity 5.0
+- A road to Magisk Manager Template
 
 ### v8.0-(Afar)
 
@@ -199,7 +197,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Well-written README.md.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Unity 5.0
+- A road to Magisk Manager Template
 
 
 
