@@ -41,11 +41,11 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Where is the module created?
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
-## Telegram Support Group
--   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
-
 ## Telegram Channel
 -   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthiopia)
+
+## Telegram Support Group
+-   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
 
 ## Requirements
 -   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-red)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
@@ -167,7 +167,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 ### v7.5(Harar)
 
-- Added codename(Harar)
+- Added codename Harar.
 - Module renamed to BootAMoji.
 - Added ability to change Emojis systemlessly.
 - Added Bootleggers Version-1 Boot Animation.
