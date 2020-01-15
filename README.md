@@ -55,13 +55,14 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 ## Included Boot Animation list
 
-1. Watchdogs Version-1.
-2. Watchdogs Version-2.
-3. Bootleggers Version-1.
+1. Resurrection Remix Oreo Version-1.
+2. Resurrection Remix Oreo Version-2.
+3. Resurrection Remix Pie.
 4. Bootleggers Version-2.
-5. Resurrection Remix Oreo Version-1.
-6. Resurrection Remix Oreo Version-2.
-7. Resurrection Remix Pie.
+5. Bootleggers Version-1.
+6. AOSP Extended Pie
+7. Watchdogs Version-1.
+8. Watchdogs Version-2.
 
 ## Included Emoji Styles list
 
