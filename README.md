@@ -48,8 +48,10 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
 
 ## Requirements
+
+- Your little contribution to make your device supprted by this Magisk Module. 
+- More than 250Mb of Free Storage Space.
 -   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-red)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
--   Your little contribution to make your device supprted by this Magisk Module. 
 
 ### THANKS FOR ALL THE PEOPLE'S WHO ARE CONTRIBUTING TO THIS MODULE DEVELOPMENT THROUGH TELEGRAM. WITHOUT YOUR CONTRIBUTION THIS MODULE IS NOTHING. KEEP DOING IT!! 
 
