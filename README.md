@@ -10,7 +10,7 @@ You can select from all the available boot animation or shutdown animation using
 
 ## Can I request another cool boot or shut animation ?
 
-Yes, You can request boot animation or shut animation using my Telegram account below then I will try to fulfill your request in future updates.
+Yes, You can request boot animation or shut animation using my Telegram account below then I will try to add support for your device on future updates.
 
 ## Is shutdown animation is supported by all devices?
 
@@ -60,7 +60,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 6. Resurrection Remix Oreo Version-2.
 7. Resurrection Remix Pie.
 
-## Included Emoji Styles list
+### Included Emoji Styles list
 
 1. JoyPixel Version-4.5
 2. Facebook Version-3
