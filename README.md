@@ -167,7 +167,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 ### v7.5(Harar)
 
--Added codename(Harar)
+- Added codename(Harar)
 - Module renamed to BootAMoji.
 - Added ability to change Emojis systemlessly.
 - Added Bootleggers Version-1 Boot Animation.
