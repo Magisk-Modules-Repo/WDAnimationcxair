@@ -54,8 +54,6 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - More than 250Mb of Free Storage Space.
 -   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-red)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
 
-### THANKS FOR ALL THE PEOPLE'S WHO ARE CONTRIBUTING TO THIS MODULE DEVELOPMENT THROUGH TELEGRAM. WITHOUT YOUR CONTRIBUTION THIS MODULE IS NOTHING. KEEP DOING IT!! 
-
 ## Included Boot Animation list
 
 1. Resurrection Remix Oreo Version-1.
@@ -204,6 +202,8 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 
 ### If u have any issue or support request for your device please create an issue [here](https://github.com/Magisk-Modules-Repo/WDAnimationcxair/issues) or conta'ct me using Telegram [Mikesew1320](https://t.me/Mikesew1320)
+
+### THANKS FOR ALL THE PEOPLE'S WHO ARE CONTRIBUTING TO THIS MODULE DEVELOPMENT THROUGH TELEGRAM. WITHOUT YOUR CONTRIBUTION THIS MODULE IS NOTHING. KEEP DOING IT!! 
 
 ## Special Thanks
 - topjohnwu for [Magisk](https://github.com/topjohnwu/Magisk)
