@@ -162,10 +162,13 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 
 ### v7.5(Harar)
 
+-Added codename(Harar)
+- Module renamed to BootAMoji.
 - Added ability to change Emojis systemlessly.
 - Added Bootleggers Version-1 Boot Animation.
 - Added ability to show your device screen resolution during installation.
 - Added ability to show module developer name during installation.
+- Enabled debug log by default.
 - Added support for OnePlus 6T.
 - Improved support for previously supported devices.
 - Improved device identification logic.
