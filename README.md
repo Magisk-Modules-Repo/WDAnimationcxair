@@ -44,13 +44,16 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Telegram Support Group
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
 
+## Telegram Channel
+-   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthiopia)
+
 ## Requirements
 -   [![Magisk 18+](https://img.shields.io/badge/Magisk-18%2B-red)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
 -   Your little contribution to make your device supprted by this Magisk Module. 
 
 ### THANKS FOR ALL THE PEOPLE'S WHO ARE CONTRIBUTING TO THIS MODULE DEVELOPMENT THROUGH TELEGRAM. WITHOUT YOUR CONTRIBUTION THIS MODULE IS NOTHING. KEEP DOING IT!! 
 
-### Included Boot Animation list
+## Included Boot Animation list
 
 1. Watchdogs Version-1.
 2. Watchdogs Version-2.
@@ -60,7 +63,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 6. Resurrection Remix Oreo Version-2.
 7. Resurrection Remix Pie.
 
-### Included Emoji Styles list
+## Included Emoji Styles list
 
 1. JoyPixel Version-4.5
 2. Facebook Version-3
