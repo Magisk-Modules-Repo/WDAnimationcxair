@@ -81,6 +81,8 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 3. Motorola Moto G4 Play.
 4. Xiaomi POCO F1.
 5. Xiaomi Redmi 7A.
+6. HUAWEI Honor.
+7. Xiaomi Redmi 4X.
 6. OnePlus 5T
 7. OnePlus 6T
 
