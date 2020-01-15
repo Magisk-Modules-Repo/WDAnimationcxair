@@ -41,14 +41,14 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Where is the module created?
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
-## Telegram Bot
--  [![Telegram Bot ](https://img.shields.io/badge/Telegram-Bot-orange)](https://t.me/BootAMojiBot)
+# Telegram Support Group
+-   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
 
 ## Telegram Channel
 -   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthiopia)
 
-## Telegram Support Group
--   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
+## Telegram Bot
+-  [![Telegram Bot ](https://img.shields.io/badge/Telegram-Bot-orange)](https://t.me/BootAMojiBot)
 
 ## Requirements
 
