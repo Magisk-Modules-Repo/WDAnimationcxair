@@ -41,6 +41,9 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 ## Where is the module created?
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
+## Telegram Bot
+-  [![Telegram Bot ](https://img.shields.io/badge/Telegram-Bot-orange)](https://t.me/BootAMojiBot)
+
 ## Telegram Channel
 -   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthiopia)
 
@@ -184,6 +187,23 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Updated installation logic.
 - Fixed wrong syntax.
 - A road to Unity 5.0
+
+### v8.0-(Afar)
+
+- Added support for Motorola Moto G5 Plus.
+- Added support for Xiaomi Redmi Note 5 Pro.
+- Added support for Google Pixel 3a XL.
+- Updated/moved to Magisk Manager Template Extended.
+-- Improved support for previously supported devices.
+- Improved device identification logic.
+- Well-written README.md.
+- Updated installation logic.
+- Fixed wrong syntax.
+- A road to Unity 5.0
+
+
+
+
 
 ### If u have any issue or support request for your device please create an issue [here](https://github.com/Magisk-Modules-Repo/WDAnimationcxair/issues) or conta'ct me using Telegram [Mikesew1320](https://t.me/Mikesew1320)
 
