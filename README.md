@@ -1,4 +1,4 @@
-# Boot Animation Switcher
+# BootAMoji Switcher
 
 ## Description
 
@@ -34,7 +34,9 @@ No, b/c it's only a script.
 
 This module doesn't support them totally. Find a custom ROM that uses the formal .zip extension, then we can continue with it.
 
-If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager.
+## What Can I do if I want to change the animation or emoji style or to completely uninstall it?
+
+If you want to uninstall the module disable it from the Magisk Manager app or reflash the module again whether in TWRP or Magisk Manager. Flash three times to change what you choose before.
 
 ## Where is the module created?
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
@@ -47,6 +49,41 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   Your little contribution to make your device supprted by this Magisk Module. 
 
 ### THANKS FOR ALL THE PEOPLE'S WHO ARE CONTRIBUTING TO THIS MODULE DEVELOPMENT THROUGH TELEGRAM. WITHOUT YOUR CONTRIBUTION THIS MODULE IS NOTHING. KEEP DOING IT!! 
+
+### Included Boot Animation list
+
+1. Watchdogs Version-1.
+2. Watchdogs Version-2.
+3. Bootleggers Version-1.
+4. Bootleggers Version-2.
+5. Resurrection Remix Oreo Version-1.
+6. Resurrection Remix Oreo Version-2.
+7. Resurrection Remix Pie.
+
+## Included Emoji Styles list
+
+1. JoyPixel Version-4.5
+2. Facebook Version-3
+3. What's App Version-2..19.62
+4. Samsung OneUI.
+5. IOS Version-13
+6. Android Pie
+7. Windows.
+8. Twitter.
+9. Apple.
+
+### N.B :- EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
+
+## Supported Device list
+
+1. TECNO Camon CX Air.
+2. Samsung Galaxy A7 2017.
+3. Motorola Moto G4 Play.
+4. Xiaomi POCO F1.
+5. Xiaomi Redmi 7A.
+6. OnePlus 5T
+7. OnePlus 6T
+
 ## Changelog
 
 ### v1.0-(Jifar)
@@ -112,13 +149,27 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
-### v7.0-(GIBE)
+### v7.0-(Gibe)
 - Added codename Gibe.
 - Added support for OnePlus5.
 - Improved support for Xiaomi POCO F1.
 - Added support for Xiaomi Redmi 7a.
 - Added ability to show current module version during installation.
 - Improved device identification logic.
+- Updated installation logic.
+- Fixed wrong syntax.
+- A road to Unity 5.0
+
+### v7.5(Harar)
+
+- Added ability to change Emojis systemlessly.
+- Added Bootleggers Version-1 Boot Animation.
+- Added ability to show your device screen resolution during installation.
+- Added ability to show module developer name during installation.
+- Added support for OnePlus 6T.
+- Improved support for previously supported devices.
+- Improved device identification logic.
+- Well-written README.md.
 - Updated installation logic.
 - Fixed wrong syntax.
 - A road to Unity 5.0
