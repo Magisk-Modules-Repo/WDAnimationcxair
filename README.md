@@ -165,7 +165,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Fixed wrong syntax.
 - A road to Unity 5.0
 
-### v7.5(Harar)
+### v7.5-(Harar)
 
 - Added codename Harar.
 - Module renamed to BootAMoji.
