@@ -72,8 +72,6 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 8. Twitter.
 9. Apple.
 
-### N.B :- EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
-
 ## Supported Device list
 
 1. TECNO Camon CX Air.
@@ -85,6 +83,8 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 7. Xiaomi Redmi 4X.
 6. OnePlus 5T
 7. OnePlus 6T
+
+### N.B :- EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
 
 ## Changelog
 
