@@ -180,20 +180,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Well-written README.md.
 - Updated installation logic.
 - Fixed wrong syntax.
-- A road to Magisk Manager Template
-
-### v8.0-(Afar)
-
-- Added support for Motorola Moto G5 Plus.
-- Added support for Xiaomi Redmi Note 5 Pro.
-- Added support for Google Pixel 3a XL.
-- Updated/moved to Magisk Manager Template Extended.
--- Improved support for previously supported devices.
-- Improved device identification logic.
-- Well-written README.md.
-- Updated installation logic.
-- Fixed wrong syntax.
-- A road to Magisk Manager Template
+- A road to Magisk Manager Template.
 
 ### NOTE! - EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
 
