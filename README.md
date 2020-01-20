@@ -40,13 +40,13 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
 ## Telegram Support Group
--   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthiopiaG)
+-   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthioRussiaG)
 
 ## Telegram Channel
--   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthiopia)
+-   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthioRussia)
 
 ## Telegram Bot
--  [![Telegram Bot ](https://img.shields.io/badge/Telegram-Bot-orange)](https://t.me/BootAMojiBot)
+-  [![Telegram Bot ](https://img.shields.io/badge/Telegram-Bot-orange)](https://t.me/@BootAMojiSwitcherSupportBot)
 
 ## Requirements
 
@@ -181,6 +181,9 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 - Updated installation logic.
 - Fixed wrong syntax.
 - A road to Magisk Manager Template.
+
+### STABLE AND AWESOME VERSION WILL COME SOON, STAY TUNED WITH US! 
+### THANKS FOR UR PATIENCE.!
 
 ### NOTE! - EMOJIS ARE NOT DEVICE DEPENDENT, CAN BE INSTALLED TO ANY ANDROID DEVICE RUNNING MAGISK 18+.
 
