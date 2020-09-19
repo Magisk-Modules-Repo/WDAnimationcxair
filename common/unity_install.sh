@@ -41,7 +41,7 @@ if $BOOTMODE; then
 else
   ui_print " CUSTOM RECOVERY INSTALLATION DETECTED! "
 fi
-case $DEVICE in "H3713"|"Hello"| "beryllium"|"omni_treble"|"j7velte"|"ONEPLUS5"|"pine"|"FLAME"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
+case $DEVICE in "OnePlus6T"|"H3713"|"Hello"| "beryllium"|"omni_treble"|"j7velte"|"ONEPLUS5"|"pine"|"FLAME"|"a5y17lte"|"jackpotltexx"|"aosp_harpia"|"lineage_harpia") ui_print " SUPPORTED DEVICE DETECTED! ";;
   *) abort "  => '"$DEVICE"' is not supported!";;
 esac
 if [ $RELEASE == "7.0" ] || [ $DEVICE == "lineage_harpia" ] ||  [ $DEVICE == "aosp_harpia" ] || [ $DEVICE == "TECNO" ]; then
@@ -375,7 +375,7 @@ if $VKSEL; then
   fi
     if [ $RELEASE == "10" ] || [ $DEVICE == "OnePlus6T" ] ;  then
   ui_print " "
-  ui_print " Start installing boot animation on Xiaomi POCO F1... "
+  ui_print " Start installing boot animation on OnePlus 6T... "
   ui_print " "
   ui_print "                 WATCHDOGS-v1 BOOTANIMATION                 "
   ui_print "         ******************************************         "
