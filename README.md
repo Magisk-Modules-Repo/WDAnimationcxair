@@ -10,7 +10,7 @@ You can select from all the available boot animation or shutdown animation using
 
 ## Can I request another cool boot or shut animation ?
 
-Yes, You can request boot animation or shut animation using my Telegram account below then I will try to add support for your device on future updates.
+Yes, You can request boot animation or shut animation by creating an issue on [GitHub](https://github.com/Magisk-Modules-Repo/WDAnimationcxair/issues)then I will try to add support for your device on future updates.
 
 ## Is shutdown animation is supported by all devices?
 
