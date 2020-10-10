@@ -43,7 +43,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthioRussiaOG)
 
 ## Telegram Channel
--   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/MGStoreEthioRussia)
+-   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/joinchat/AAAAAFjr9gJXj299c5Xo9w)
 
 ## Telegram Bot
 -  [![Telegram Bot ](https://img.shields.io/badge/Telegram-Bot-orange)](https://t.me/BootAMojiSwitcherSupportBot) Contact me using this awesome Bot.
