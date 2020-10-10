@@ -40,7 +40,7 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
 -   [![Created in Ethiopia](https://img.shields.io/badge/Created%20with%20%E2%9D%A4%EF%B8%8F%20in%20-Ethiopia-green)](https://en.m.wikipedia.org/wiki/Ethiopia)
 
 ## Telegram Support Group
--   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/MGStoreEthioRussiaOG)
+-   [![Telegram Group](https://img.shields.io/badge/Telegram-Group-yellow)](https://t.me/joinchat/KBKQalOkBykDl0KJ4Qx_3Q)
 
 ## Telegram Channel
 -   [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/joinchat/AAAAAFjr9gJXj299c5Xo9w)
