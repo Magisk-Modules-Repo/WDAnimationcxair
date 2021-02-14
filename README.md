@@ -201,6 +201,6 @@ If you want to uninstall the module disable it from the Magisk Manager app or re
   
 ## Links
 - [Author's Telegram Profile](https://t.me/Mikesew1320)
-- [Telegram Channel](https://t.me/MGStoreEthiopia)
+- [Telegram Channel](https://t.me/Mikesew1320sMoDs)
 - [YouTube Channel](https://www.youtube.com/channel/UCDzQAIZ9lAzKAkQHVrJHssA)
 - [GitHub](https://github.com/Magisk-Modules-Repo/WDAnimationcxair)
